@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html >
+<head>
+<meta charset="UTF-8">
+<title>登录/注册页面</title>
+
+
+
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<link href="../css/login.css" rel="stylesheet" type="text/css">
+</head>
+<body><script src="/demos/googlegg.js"></script>
+
+<div class="cotn_principal">
+	<header class="top">
+	<div class="e"></div>
+	
+	</header>
+  <div class="cont_centrar">
+    <div class="cont_login">
+      <div class="cont_info_log_sign_up">
+        <div class="col_md_login">
+          <div class="cont_ba_opcitiy">
+            <h2>登录帐号</h2>
+            <p>登录土豆书摘进入个人页面</p>
+            <button class="btn_login" onClick="cambiar_login()">登录</button>
+          </div>
+        </div>
+        <div class="col_md_sign_up">
+          <div class="cont_ba_opcitiy">
+            <h2>注册帐号</h2>
+            <p>点击注册成为土豆书摘的会员</p>
+            <button class="btn_sign_up" onClick="cambiar_sign_up()">注册</button>
+          </div>
+        </div>
+      </div>
+      <div class="cont_back_info">
+        <div class="cont_img_back_grey"> </div>
+      </div>
+      <div class="cont_forms" >
+        <div class="cont_img_back_">  </div>
+        <div class="cont_form_login"> <a href="#" onClick="ocultar_login_sign_up()" ><i class="material-icons">&#xE5C4;</i></a>
+          <h2>登录</h2>
+          <input type="text" placeholder="Email" />
+          <input type="password" placeholder="Password" />
+          <a href="personal.html"><button class="btn_login" onClick="cambiar_login()">登录</button></a>
+        </div>
+        <div class="cont_form_sign_up"> <a href="#" onClick="ocultar_login_sign_up()"><i class="material-icons">&#xE5C4;</i></a>
+          <h2>注册</h2>
+          <input type="text" placeholder="Emai" required="required"/>
+		 <input type="text" placeholder="User" required="required"/>
+          <input type="password" placeholder="Password" required="required"/>
+          <input type="password" placeholder="Confirm Password" required="required"/>
+          <button class="btn_sign_up" onClick="cambiar_sign_up()">注册</button>
+        </div>
+      </div>
+    </div>
+  </div>
+	<div id="foot">
+	  <div id="a">
+      <li>关于我们</li>
+		<li>丨网站地图</li>
+		<li>丨1173531057@qq.com</li>
+		  
+    </div>	
+    </div>
+</div>
+
+<script type="text/javascript" src="../js/login.js"></script>
+
+
+</body>
+</html>
+
